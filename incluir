@@ -1,0 +1,8 @@
+function incluir($arquivo){
+	var script = document.createElement("script");
+	script.src = $arquivo;
+	var head = document.getElementsByTagName("head").item(0)
+	head.appendChild(script);
+}
+
+incluir("jquery-1.11.0.js");

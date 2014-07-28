@@ -23,7 +23,13 @@ function geb(seletorFull) {
         case "#":
             return Doc.getElementById(name);
         case ".":
-            return Doc.getElementsByClassName(name);
+            if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                return Doc.querySelectorAll(seletorFull);
+            }else{
+                return Doc.getElementsByClassName(name);
+            }
+
+            
         default:
             return Doc.getElementsByTagName(seletorFull);
     }

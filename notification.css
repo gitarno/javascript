@@ -1,0 +1,60 @@
+            *{
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                font-family: "Tahoma", Verdana, Arial;
+                line-height: 161%;
+            }
+
+            .mensagem_suporte
+            {
+                display: block;
+            }
+
+
+            #custom-notificacao
+            {
+                max-width: 350px;
+                padding: 20px;
+                background: rgba(227, 224, 224, 1);
+                border-radius: 5px;
+                width:100%;
+
+            }
+
+            label
+            {
+                display: block;
+                font-size: 11px;
+            }
+
+            input[name="tituloNotificacao"], textarea
+            {
+                width: 100%;
+                margin-bottom: 15px;
+                font-size: 11px;
+                color: rgba(120, 120, 120, 1);
+                padding: 5px;
+            }
+
+            input[name="tituloNotificacao"]           {
+                height: 2em;
+            }
+
+            textarea
+            {
+                height: 5em;
+            }
+
+            .buttons
+            {
+                text-align: center;
+            }
+
+            .bt_padrao {
+                padding: 0.5em;
+                width: 100%;
+                border: 1px solid rgba(161, 161, 161, 1);
+                border-radius: 3px;
+                color: #999;
+            }

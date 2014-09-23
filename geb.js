@@ -13,6 +13,9 @@
     geb(".teste")[0].innerHTML += "AAAA";
     geb("div")[0].innerHTML += "BBBB";
     }; 
+    
+    Teste de performace:
+    http://jsperf.com/jquery-vs-native-dom-selectores/2
  *
  */
 function geb(seletorFull) {

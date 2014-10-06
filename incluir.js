@@ -1,10 +1,7 @@
-// TargetTrust
 function incluir($arquivo){
-	
 	var divisao = $arquivo.split(".");
 	var ext = divisao[divisao.length-1];
 	var head = document.getElementsByTagName("head").item(0);
-
 	switch(ext) {
 		case "js": 
 			var elemento = document.createElement("script");
@@ -24,10 +21,6 @@ function incluir($arquivo){
 		break
 			
 	}
-	
-	
-	
-	
 }
 
 incluir("jquery-1.11.0.js");

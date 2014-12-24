@@ -15,7 +15,7 @@
     }; 
     
     Teste de performace:
-    http://jsperf.com/jquery-vs-native-dom-selectores/2
+    http://jsperf.com/jquery-vs-native-dom-selectores/4
  *
  */
 function geb(seletorFull) {

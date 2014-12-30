@@ -1,3 +1,10 @@
+/**
+ * Manipulando a DOM (<head>) 
+ *  
+ * @param  {String} $arquivo [Nome do Arquivo que deseja incluir]
+ * @return {Bollean} false        
+ */
+
 function incluir($arquivo){
 	var divisao = $arquivo.split(".");
 	var ext = divisao[divisao.length-1];
@@ -13,15 +20,13 @@ function incluir($arquivo){
 			elemento.href = $arquivo;
 			elemento.rel = "stylesheet";
 			head.appendChild(elemento);
-		break;
-		
-		
+		break;	
 		default: 
-			alert("extensao errada");
+			alert("extensão errada");
 		break
-			
-	}
+	};
+	return false;
 }
 
-incluir("jquery-1.11.0.js");
-incluir("jquery-1.11.0.css");
+incluir("myjavascript.js");
+incluir("mystyle.css");

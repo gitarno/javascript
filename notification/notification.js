@@ -18,9 +18,12 @@ var notificar = (function (window) {
 })(window);
 
 window.addEventListener("load",function(){
+    var titulo = document.getElementById('tituloNotificacao').value;
+    var corpo = document.getElementById('body').value;
+    
     document.getElementById('bt_abrir').addEventListerner('click',function(){
-      notificar("Titulo",{
-        body:"Corpo da mensagem",
+      notificar(titulo,{
+        body:corpo,
         icon:"http://url.com.br",
         dir:"ltr",
         tag:"Notification, Gitarno, Arno"

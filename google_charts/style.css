@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background: #eee;
+}
+.half{
+  width: 48%;
+  position:relative;
+  float:left;
+  top:0px;
+  left:0px;
+  padding: 20px;
+  background: #fff;
+  overflow: hidden;
+  margin: 1% ;
+  
+}
+
+@media (max-width:700px){
+  .half{
+    width: 98%;
+  }
+}

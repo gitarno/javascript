@@ -1,0 +1,11 @@
+Test RANDOMUSER 
+
+Essa pasta é apenas uma brincadeira utilizando AJAX para criar a comunicação entre a API do site RandomUSer! 
+
+[RandomUser]('http://randomuser.me');
+
+Caso queira verificar o teste funcionando acesso abaixo o JSbin:
+
+[jsBin]('http://jsbin.com/toyime/1');
+
+

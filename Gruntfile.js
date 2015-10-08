@@ -9,7 +9,7 @@ module.exports = function (grunt) {
 			  compress: true
         	},
 	        files: {
-	          'calc-pattern/**.min.js': [calc-pattern/**/*.js,!calc-pattern/**/*.min.js];
+	          'calc-pattern/**.min.js': [calc-pattern/**/*.js,!calc-pattern/**/*.min.js]
 	        }
       	}
     }

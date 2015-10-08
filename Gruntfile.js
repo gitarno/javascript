@@ -26,6 +26,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-karma-coveralls');
 
-  grunt.registerTask('default', ['uglify','coveralls']);
+  grunt.registerTask('default', ['uglify']);
   
 };

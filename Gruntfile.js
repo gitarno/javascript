@@ -15,7 +15,6 @@ module.exports = function (grunt) {
     coveralls: {
         options: {
             debug: true,
-            coverageDir: 'calc-pattern/',
             dryRun: true,
             force: true,
             recursive: true
